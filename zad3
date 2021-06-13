@@ -1,0 +1,42 @@
+import turtle
+def trj(n):
+    t.forward(n*l)
+    t.rt(r)
+    t.forward(n*l)
+    t.rt(r)
+    t.forward(n*l)
+    t.rt(r)
+def line(n):
+    t.forward(n*l)
+    t.rt(r)
+t=turtle.Turtle()
+t.shape('arrow')
+
+l=50
+r=120
+
+t.rt(-60)
+trj(1)
+line(3)
+trj(1)
+line(3)
+trj(1)
+line(3)
+line(9)
+trj(1)
+line(3)
+trj(1)
+line(3)
+trj(1)
+line(3)
+line(9)
+trj(1)
+line(3)
+trj(1)
+line(3)
+trj(1)
+line(3)
+line(9)
+turtle.exitonclick()
+
+
